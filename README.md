@@ -1,7 +1,6 @@
 Test First Ruby -- RSpec 3 Edition
 ==========
-This is modified version of test-first.org's learn ruby project. See [testfirst.org/learn_ruby](http://testfirst.org/learn_ruby#install) for more information about how this will work.  These test-first Ruby challenges have been forked from [https://github.com/alexch/learn_ruby](https://github.com/alexch/learn_ruby) and updated to use RSpec 3 instead of RSpec 2.
-
+This is modified version of test-first.org's learn ruby project. See [testfirst's Ruby page](http://testfirst.org/learn_ruby#install) for more information about how this will work. 
 
 ### Set up instructions
 
@@ -30,4 +29,4 @@ Basically, this is "error-driven development"... you'll keep running tests, hitt
 
 This is forked from [https://github.com/alexch/learn_ruby](https://github.com/alexch/learn_ruby), its original creator.
 
-This is part of [TheOdinProject](http://www.theodinproject.com) introduction to Ruby, RSpec and test driven development in the Web Development 101 section. track. See [here](http://www.theodinproject.com/courses/web-development-101/lessons/ruby) for more information.
+This is part of [TheOdinProject](http://www.theodinproject.com) introduction to Ruby, RSpec and test driven development in the Web Development 101 track. See [here](http://www.theodinproject.com/courses/web-development-101/lessons/ruby) for more information.
