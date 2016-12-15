@@ -16,16 +16,6 @@ To work through the first exercise, follow this process
 
 1. `cd` into `00_hello` from the root folder of this project
 2. Run `rake`, to run the tests. It will fail with the following error:
-  ```
-  Failures:
-
-    1) the hello function says hello
-      Failure/Error: expect(hello).to eq("Hello!")
-
-      NameError:
-        undefined local variable or method `hello' for #<RSpec::ExampleGroups::TheHelloFunction:0x007fa1221408f0>
-        # ./00_hello/hello_spec.rb:106:in `block (2 levels) in <top (required)>'
-  ```
 3. Read the failure output carefully and write the code that will make it pass
 4. Run the tests again with `rake`
 5. This will output that one test has passed and another test failure, write the code to make the next test pass.
@@ -36,19 +26,8 @@ To work through the first exercise, follow this process
 
 Basically, this is "error-driven development"... you'll keep running tests, hitting error messages, fixing those messages, running more tests...  It is meant to not only test your Ruby skills but also get you comfortable seeing big scary looking stack traces and error messages.  Most of the development you do at first will be just like this.  In fact, most of *all* development is error-driven.  So get comfortable with it!
 
-### Troubleshooting
-
-* Don't name any of your directories with spaces in them! It will give you horribly frustrating error messages and code hates dealing with spaces.  For instance:
-
-  ```language-bash
-  # BAD:
-  /Documents/My Homework/ruby
-
-  # GOOD:
-  /Documents/my_homework/ruby
-  ```
-
-
 ### Credit
 
 This is forked from [https://github.com/alexch/learn_ruby](https://github.com/alexch/learn_ruby), its original creator.
+
+This is part of [TheOdinProject](http://www.theodinproject.com) introduction to Ruby, RSpec and test driven development in the Web Development 101 section. track. See [here](http://www.theodinproject.com/courses/web-development-101/lessons/ruby) for more information.
